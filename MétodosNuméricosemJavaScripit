@@ -1,0 +1,58 @@
+<!--Number é um outro tipo de dado muito usado em JavaScript-->
+
+´´´js
+//Antes de executar cada sentença “const”, é necessário comentar as outras
+//inteiros e decimais
+	const radius = 10;
+	const pi = 3.14;    //usamos ponto ao invés de vírgula
+	console.log(radius, pi);
+
+//operadores aritméticos
+  const reminder = 5 % 2; //chamando o resto da divisão
+  console.log(reminder);
+
+//cálculo de área
+  const area = pi * radius ** 2;
+  console.log(area);
+
+//ordem de operações – mesma precedência da matemática básica
+// 1º parênteses
+// 2º expoentes ou raízes
+// 3º multiplicação ou divisão
+// 4º adição e subtração
+  const crazyOperation = 5 * (10 - 3) ** 2; 
+  console.log(crazyOperation);
+
+//incremento e decremento
+No caso aqui a variável const precisa ser substituída por let
+  let postLikes = 10;
+  postLikes = postLikes + 1;
+//Podemos  declarar de outra forma, comentando a forma acima
+  postLikes++ ;
+  console.log(postLikes);
+
+//Podemos decrementar também
+	postLikes--;
+  console.log(postLikes);
+
+//opradores addition, subtraction, multiplication e division assignment
+  let postLikes += 10;  //adição
+  console.log(postLikes);
+
+  let postLikes -= 5;  //subtração
+  console.log(postLikes);
+
+  let postLikes *= 5;  //multiplicação
+  console.log(postLikes);
+
+  let postLikes /= 2;  //divisão
+  console.log(postLikes);
+
+//NaN – not a number
+//Operações que não resultam em número
+  console.log(7 / ‘aha’);
+
+//concatenação de String com número
+  const  likesMessage = ‘0 post tem ’ + postLikes + ‘likes.’
+  console.log(likesMessage);
+´´´
